@@ -1,27 +1,7 @@
 {
-  "miniapp": {
-    "version": "1",
-    "name": "ERC-8021 DApp Builder",
-    "iconUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_2bfe2437-6333-41af-9d1b-98dc0f5a18ec-VSHW3tzabPCneSfL8I5EAEB5AJAjSp",
-    "homeUrl": "https://cage-mud-423.app.ohara.ai",
-    "imageUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_2bfe2437-6333-41af-9d1b-98dc0f5a18ec-VSHW3tzabPCneSfL8I5EAEB5AJAjSp",
-    "buttonTitle": "Open with Ohara",
-    "splashImageUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
-    "splashBackgroundColor": "#ffffff",
-    "tags": [
-      "ohara",
-      "mini-app",
-      "baseBuilder": {
-      "ownerAddress": "0x22AD376B82710d20FC21A37A8fb04FE26e48dEeF"
-      "farcaster"
-    ],
-    "primaryCategory": "entertainment",
-    "ogTitle": "ERC-8021 DApp Builder",
-    "ogImageUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_2bfe2437-6333-41af-9d1b-98dc0f5a18ec-VSHW3tzabPCneSfL8I5EAEB5AJAjSp"
-  },
+  "accountAssociation": { ... },
+  "miniapp": { ... },
   "baseBuilder": {
-    "allowedAddresses": [
-      ""
-    ]
+    "ownerAddress": "0x22AD376B82710d20FC21A37A8fb04FE26e48dEeF"
   }
 }
