@@ -8,7 +8,7 @@
 
 A decentralized platform for builder code management and revenue sharing on Base network, implementing the [ERC-8021 standard](https://eip.tools/eip/8021).
 
-![ERC-8021 Platform](https://github.com/sinirlibiber/erc8021-builder-codes/blob/main/screenshot.png?raw=true)
+
 
 ## 🌟 Features
 
