@@ -104,7 +104,26 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📜 Smart Contract Deployment
 
-### Using Foundry (Recommended)
+### 🎯 Option 1: Browser Deployment (Easiest)
+
+Deploy directly from your browser without any command-line tools:
+
+1. **Connect Wallet** in the app (Wallet tab)
+2. **Make sure you're on Base network** (Chain ID: 8453)
+3. **Go to Deploy tab** (🚀 Deploy)
+4. **Enter platform wallet address** (receives 10% of builder fees)
+5. **Click "Deploy to Base Mainnet"**
+6. **Approve transaction** in your wallet (~0.002-0.005 ETH gas)
+7. **Wait for confirmation** (usually < 10 seconds)
+8. **Copy deployed address** and add to `.env.local`:
+   ```bash
+   NEXT_PUBLIC_ERC8021_CONTRACT_ADDRESS=0x...
+   ```
+9. **Restart dev server**: `pnpm dev`
+
+✨ **That's it!** Your contract is live on Base mainnet and ready to use.
+
+### 🛠️ Option 2: Using Foundry (Command Line)
 
 ```bash
 # Install Foundry
@@ -141,7 +160,7 @@ forge create \
 echo "NEXT_PUBLIC_ERC8021_CONTRACT_ADDRESS=0x..." >> ../.env.local
 ```
 
-### Using Hardhat (Alternative)
+### 🔧 Option 3: Using Hardhat (Alternative)
 
 ```bash
 # Install Hardhat
